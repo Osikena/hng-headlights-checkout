@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hng-headlights-checkout/static/css/main.9072bd54.css",
+    "main.js": "/hng-headlights-checkout/static/js/main.0578b90a.js",
+    "static/js/787.b3cea301.chunk.js": "/hng-headlights-checkout/static/js/787.b3cea301.chunk.js",
+    "static/media/Profile.svg": "/hng-headlights-checkout/static/media/Profile.06e2cb5391b914ef6a132723ff8ea015.svg",
+    "static/media/Credit Card.svg": "/hng-headlights-checkout/static/media/Credit Card.ed92dedcfdc2aaa34459e4648be5630f.svg",
+    "static/media/Bank Transfer.svg": "/hng-headlights-checkout/static/media/Bank Transfer.f66cc1326c41889224c292232ef3d4c6.svg",
+    "static/media/Logo.svg": "/hng-headlights-checkout/static/media/Logo.2153da16548938b57e3f7c18dcc0bd70.svg",
+    "static/media/Logo 2.svg": "/hng-headlights-checkout/static/media/Logo 2.be32e5ea91a855efb4058101bdbf3f3d.svg",
+    "static/media/Secure Pay.svg": "/hng-headlights-checkout/static/media/Secure Pay.8acc076816c674375d3e06c9e9249487.svg",
+    "static/media/Instagram.svg": "/hng-headlights-checkout/static/media/Instagram.cc821954259a97880361b25f8e624b82.svg",
+    "static/media/Linkedin.svg": "/hng-headlights-checkout/static/media/Linkedin.60df391637ab38b49137c4542b72d0d0.svg",
+    "static/media/Github.svg": "/hng-headlights-checkout/static/media/Github.100bb130ba859f976d76146af40bf8f8.svg",
+    "static/media/Twitter.svg": "/hng-headlights-checkout/static/media/Twitter.0a9b98998071915ca7ebb4e63ab04952.svg",
+    "index.html": "/hng-headlights-checkout/index.html",
+    "static/media/Good.svg": "/hng-headlights-checkout/static/media/Good.336142549f1a37a4b6865b6edb5d61c6.svg",
+    "main.9072bd54.css.map": "/hng-headlights-checkout/static/css/main.9072bd54.css.map",
+    "main.0578b90a.js.map": "/hng-headlights-checkout/static/js/main.0578b90a.js.map",
+    "787.b3cea301.chunk.js.map": "/hng-headlights-checkout/static/js/787.b3cea301.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9072bd54.css",
+    "static/js/main.0578b90a.js"
+  ]
+}
