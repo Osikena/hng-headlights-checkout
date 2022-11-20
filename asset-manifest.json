@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hng-headlights-checkout/static/css/main.2b482d53.css",
-    "main.js": "/hng-headlights-checkout/static/js/main.3c94c4a7.js",
+    "main.css": "/hng-headlights-checkout/static/css/main.4e9cbe2d.css",
+    "main.js": "/hng-headlights-checkout/static/js/main.2dda31d5.js",
     "static/js/787.b3cea301.chunk.js": "/hng-headlights-checkout/static/js/787.b3cea301.chunk.js",
     "static/media/Profile.svg": "/hng-headlights-checkout/static/media/Profile.06e2cb5391b914ef6a132723ff8ea015.svg",
     "static/media/Credit Card.svg": "/hng-headlights-checkout/static/media/Credit Card.ed92dedcfdc2aaa34459e4648be5630f.svg",
@@ -16,12 +16,12 @@
     "static/media/Twitter.svg": "/hng-headlights-checkout/static/media/Twitter.0a9b98998071915ca7ebb4e63ab04952.svg",
     "index.html": "/hng-headlights-checkout/index.html",
     "static/media/Good.svg": "/hng-headlights-checkout/static/media/Good.336142549f1a37a4b6865b6edb5d61c6.svg",
-    "main.2b482d53.css.map": "/hng-headlights-checkout/static/css/main.2b482d53.css.map",
-    "main.3c94c4a7.js.map": "/hng-headlights-checkout/static/js/main.3c94c4a7.js.map",
+    "main.4e9cbe2d.css.map": "/hng-headlights-checkout/static/css/main.4e9cbe2d.css.map",
+    "main.2dda31d5.js.map": "/hng-headlights-checkout/static/js/main.2dda31d5.js.map",
     "787.b3cea301.chunk.js.map": "/hng-headlights-checkout/static/js/787.b3cea301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b482d53.css",
-    "static/js/main.3c94c4a7.js"
+    "static/css/main.4e9cbe2d.css",
+    "static/js/main.2dda31d5.js"
   ]
 }
