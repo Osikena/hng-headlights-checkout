@@ -22,6 +22,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    color: #222222;
+    border: none;
 }
 #Header-nav-list-item-2, #Header-nav-list-item-3, #Header-nav-list-item-4, #Header-nav-list-item-5{
     margin-left: 3vw;
@@ -31,9 +33,11 @@
     align-items: center;
     justify-content: center;
     height: 4vh;
-    margin-left: 2vw;
+    margin-left: 1vw;
     padding-left: 1vw;
     border-left: 1px solid #6C6C70;
+    color: #222222;
+    padding-top: 0px;
 }
 #Header-nav-list-item-6-text{
     font-family: 'Work Sans';
@@ -114,6 +118,22 @@
     flex-direction: column;
     width: 100%;
 }
+.firstname-error, .lastname-error, .country-error, .zipcode-error, .cardname-error, .cardnumber-error, .expiry-error, .cvv-error{
+    outline: 3px solid #F89687;
+}
+.firstname-ok:focus, .lastname-ok:focus, .country-ok:focus, .zipcode-ok:focus, .cardname-ok:focus, .cardnumber-ok:focus, .expiry-ok:focus, .cvv-ok:focus{
+    outline: 3px solid #01AA6E;
+}
+#CheckoutMainLeftInput-input:focus{
+    outline: none;
+}
+#CheckoutMainLeftInput-div{
+    display: flex;
+    width: 100%;
+    border: 1.2px solid #222222;
+    border-radius: 10px;
+    padding-right: 1vw;
+}
 #CheckoutMainLeftInput-label{
     font-family: 'Work Sans';
     font-style: normal;
@@ -127,7 +147,7 @@
     font-weight: 400;
     font-size: 16px;
     background: #FFFFFF;
-    border: 1.2px solid #222222;
+    border: none;
     border-radius: 10px;
     padding-left: 1vw;
     width: 100%;

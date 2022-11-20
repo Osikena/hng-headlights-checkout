@@ -1,14 +1,38 @@
 
 @media (max-width: 576px) {
 
+
+
+
+    #Header-navbar-toggle{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    #Header-nav-list-item-1, #Header-nav-list-item-2, #Header-nav-list-item-3, #Header-nav-list-item-4, #Header-nav-list-item-5{
+        margin: 0px;
+        height: 8vh;
+        border-bottom: 1px solid #6C6C70;
+    }
+    #Header-nav-list-item-6{
+        border: none;
+        margin: 0px;
+        height: 8vh;
+        padding-top: 5vh;
+        padding-bottom: 1vh;
+    }
+    #Header-nav-list-item-6-img{
+        margin-left: 3vw;
+    }
+
+
+
     #CheckoutMain-row{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
-
-
 
 
 
@@ -37,10 +61,17 @@
     #CheckoutMainLeftInput-main{
         margin-bottom: 4vh;
     }
+    #CheckoutMainLeftInput-div{
+        padding-right: 3vw;
+    }
+    #CheckoutMainLeftInput-input{
+        padding-left: 3vw;
+    }
     #CheckoutMainLeftComp-main{
         margin: 0px;
-        padding-right: 1vw;
+        padding-right: 3vw;
         margin-bottom: 2vh;
+        padding-left: 2vw;
     }
     #CheckoutMainLeftComp-text{
         font-size: 16px;
@@ -151,14 +182,37 @@
 
 @media (min-width: 768px) {
 
+
+
+    #Header-navbar-toggle{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    #Header-nav-list-item-1, #Header-nav-list-item-2, #Header-nav-list-item-3, #Header-nav-list-item-4, #Header-nav-list-item-5{
+        margin: 0px;
+        height: 8vh;
+        border-bottom: 1px solid #6C6C70;
+    }
+    #Header-nav-list-item-6{
+        border: none;
+        margin: 0px;
+        height: 8vh;
+        padding-top: 5vh;
+        padding-bottom: 1vh;
+    }
+    #Header-nav-list-item-6-img{
+        margin-left: 3vw;
+    }
+
+
+
     #CheckoutMain-row{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
     }
-
-
 
 
     #CheckoutMain-text{
@@ -183,10 +237,17 @@
         margin-top: 1vh;
         margin-bottom: 4vh;
     }
+    #CheckoutMainLeftInput-div{
+        padding-right: 2vw;
+    }
+    #CheckoutMainLeftInput-input{
+        padding-left: 2vw;
+    }
     #CheckoutMainLeftComp-main{
         margin: 0px;
         padding-right: 1vw;
         margin-bottom: 2vh;
+        padding-left: 1vw;
     }
     #CheckoutMainLeftComp-text{
         font-size: 16px;
@@ -292,6 +353,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
+        color: #222222;
+        border: none;
     }
     #Header-nav-list-item-2, #Header-nav-list-item-3, #Header-nav-list-item-4, #Header-nav-list-item-5{
         margin-left: 3vw;
@@ -301,9 +364,11 @@
         align-items: center;
         justify-content: center;
         min-height: 10vh;
-        margin-left: 2vw;
+        margin-left: 1vw;
         padding-left: 1vw;
         border-left: 1px solid #6C6C70;
+        color: #222222;
+        padding-top: 0px;
     }
     #Header-nav-list-item-6-text{
         font-family: 'Work Sans';
@@ -384,6 +449,22 @@
         flex-direction: column;
         width: 100%;
     }
+    .firstname-error, .lastname-error, .country-error, .zipcode-error, .cardname-error, .cardnumber-error, .expiry-error, .cvv-error{
+        outline: 3px solid #F89687;
+    }
+    .firstname-ok:focus, .lastname-ok:focus, .country-ok:focus, .zipcode-ok:focus, .cardname-ok:focus, .cardnumber-ok:focus, .expiry-ok:focus, .cvv-ok:focus{
+        outline: 3px solid #01AA6E;
+    }
+    #CheckoutMainLeftInput-input:focus{
+        outline: none;
+    }
+    #CheckoutMainLeftInput-div{
+        display: flex;
+        width: 100%;
+        border: 1.2px solid #222222;
+        border-radius: 10px;
+        padding-right: 1vw;
+    }
     #CheckoutMainLeftInput-label{
         font-family: 'Work Sans';
         font-style: normal;
@@ -397,7 +478,7 @@
         font-weight: 400;
         font-size: 16px;
         background: #FFFFFF;
-        border: 1.2px solid #222222;
+        border: none;
         border-radius: 10px;
         padding-left: 1vw;
         width: 100%;
