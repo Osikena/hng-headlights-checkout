@@ -30,8 +30,8 @@ function CheckoutMainLeft() {
 
   const [icon, setIcon] = useState()
 
-  const [payment, setPayment] = useState(false)
-  const [paymentBorderCard, setPaymentBorderCard] = useState('1px solid #222222')
+  const [payment, setPayment] = useState(true)
+  const [paymentBorderCard, setPaymentBorderCard] = useState('1px solid #01AA6E')
   const [paymentBorderBank, setPaymentBorderBank] = useState('1px solid #222222')
 
   function firstNamef(value){
